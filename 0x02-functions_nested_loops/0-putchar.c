@@ -1,21 +1,18 @@
 #include "main.h"
-
 /**
- * main - prints _putchar followed by a new line.
- *
- * Return: Always 0 (Success)
+ * main - Print "Jemima" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+int c = 0;
+char jemima[10] = "_putchar\n";
 
-	return (0);
+while (c < 9)
+{
+_putchar(jemima[c]);
+c++;
+}
+return (0);
 }
