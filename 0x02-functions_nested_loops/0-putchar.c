@@ -1,18 +1,14 @@
 #include "main.h"
-/**
- * main - Print "Holberton" followed by a new line.
- * Description: You are not allowed to include standard libraries.
- * Return: 0
- */
-int main(void)
-{
-int c = 0;
-char holberton[10] = "_putchar\n";
+#include <unistd.h>
 
-while (c < 9)
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-_putchar(holberton[c]);
-c++;
-}
-return (0);
+	return (write(1, &c, 1));
 }
