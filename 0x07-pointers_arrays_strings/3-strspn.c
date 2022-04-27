@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
   *_strspn - gets the lenght of a prefix substring.
-  *pointer to string.
-  *accept: pointer to bytes that are checked
+  *@s: pointer to strin.
+  *@accept: pointer to bytes that are checked
   *for in s.
   *
   *Return: return number of bytes in the initial

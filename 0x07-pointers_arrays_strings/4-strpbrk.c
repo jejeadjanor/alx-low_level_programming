@@ -4,8 +4,8 @@
   *_strpbrk - seraches a string for any of a set of bytes.
   *it locates the first occurence in the string s of any of
   *the bytes in the string accept.
-  *pointer to string.
-  *pointer to strin to be matched.
+  *@s: pointer to string.
+  *@accept: pointer to strin to be matched.
   *
   *Return: pointer to byte in s that matches one of the bytes
   *in accept ot NULL if no such byte is found.

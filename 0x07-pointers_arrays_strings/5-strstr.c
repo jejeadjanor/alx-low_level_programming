@@ -3,8 +3,8 @@
   *_strstr - locates a substring.
   *finds first occurence of the substring needle in
   *haystack.
-  *haystack: pointer to string.
-  *needle: pointer to substring.
+  *@haystack: pointer to string.
+  *@needle: pointer to substring.
   *
   *Return: pointer to beginning of located string
   *or NULL if substring isnt located.

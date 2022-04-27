@@ -2,9 +2,9 @@
 /**
   *_memcpy - copies n bytes from memory area src
   *to memory area dest.
-  *pointer to destination.
-  *pointer to source string.
-  *number of bytes to be coppied.
+  *@dest: pointer to destination.
+  *@src: pointer to source string.
+  *@n: number of bytes to be coppied.
   *
   *Return: pointer to dest.
   */
